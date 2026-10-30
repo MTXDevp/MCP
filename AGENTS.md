@@ -11,6 +11,7 @@ OpenCode loads them automatically.
 2. `knowledge/01-architecture.md` — where each piece of the server lives.
 3. `knowledge/02-how-to-add-a-tool.md` — procedure for adding tools.
 4. `knowledge/03-transports.md` — stdio and HTTP rules.
+5. `knowledge/04-workflow.md` — branching workflow. Every branch starts from `main`.
 
 ## Working rules
 

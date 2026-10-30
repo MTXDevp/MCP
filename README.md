@@ -72,6 +72,14 @@ See `knowledge/02-how-to-add-a-tool.md`. Short version: new file in
 `src/tools/`, Zod v4 `inputSchema`, pure logic exported for tests,
 registration in `src/tools/index.ts`.
 
+## WhatsApp
+
+Base implementation on the Cloud API (`src/whatsapp/`). Without
+`WHATSAPP_ACCESS_TOKEN` and `WHATSAPP_PHONE_NUMBER_ID` the server uses a
+stub client that records messages in memory, so tools and tests run without
+credentials. The `whatsapp-send-message` tool accepts an E.164 number and
+returns the provider message id.
+
 ## Permanent instructions
 
 - `AGENTS.md` — entry point for agents working in this repo.
